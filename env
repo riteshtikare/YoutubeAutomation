@@ -5,7 +5,7 @@
 
 # ── Anthropic (Claude AI) ────────────────────────────────────────
 # Get your key → https://console.anthropic.com
-ANTHROPIC_API_KEY=sk-ant-PASTE_YOUR_KEY_HERE
+ANTHROPIC_API_KEY=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
 
 # ── ElevenLabs (Text-to-Speech) ──────────────────────────────────
 # Get your key → https://elevenlabs.io/app/api-key
