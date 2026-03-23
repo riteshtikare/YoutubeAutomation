@@ -1,0 +1,24 @@
+# AI & APIs
+anthropic>=0.28.0
+elevenlabs>=1.0.0
+
+# Video & Image
+moviepy>=1.0.3
+Pillow>=10.0.0
+imageio[ffmpeg]>=2.34.0
+
+# YouTube Upload
+google-api-python-client>=2.130.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# HTTP & utils
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Scheduler
+schedule>=1.2.0
+
+# Offline TTS fallback
+pyttsx3>=2.90
+pydub>=0.25.1
