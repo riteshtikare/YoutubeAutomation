@@ -1,0 +1,33 @@
+# ================================================================
+#   AI YouTube Automation Pipeline — Environment Variables
+#   Fill in your keys below and save this file as  .env
+# ================================================================
+
+# ── Anthropic (Claude AI) ────────────────────────────────────────
+# Get your key → https://console.anthropic.com
+ANTHROPIC_API_KEY=sk-ant-PASTE_YOUR_KEY_HERE
+
+# ── ElevenLabs (Text-to-Speech) ──────────────────────────────────
+# Get your key → https://elevenlabs.io/app/api-key
+# Leave blank to use free offline TTS fallback
+ELEVENLABS_API_KEY=PASTE_YOUR_KEY_HERE
+ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM
+
+# ── Pexels (Stock Footage & Images) ──────────────────────────────
+# Get your key → https://www.pexels.com/api
+PEXELS_API_KEY=PASTE_YOUR_KEY_HERE
+
+# ── YouTube Channel Settings ─────────────────────────────────────
+# Your channel niche (used for AI topic research)
+DEFAULT_NICHE=personal finance
+
+# Leave blank = AI picks trending topic automatically
+# Or set a fixed topic: DEFAULT_TOPIC=5 habits to save money
+DEFAULT_TOPIC=
+
+# ── Video Settings ────────────────────────────────────────────────
+# Font path for subtitles and thumbnails
+# Windows → C:/Windows/Fonts/arialbd.ttf
+# Mac     → /Library/Fonts/Arial Bold.ttf
+# Linux   → /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+FONT_PATH=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
